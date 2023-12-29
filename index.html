@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Nabataean&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+Nabataean&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div class="header">
+	<h1>Temperature Converter</h1>
+</div>
+<div class="container">
+	<div class="row1">
+		<div class="parent">
+			<input type="text" id="CelsiusInput" maxlength="12"  placeholder="Enter a value"><span onclick="Clear(event)" id="id1">&#x2715</span>
+		</div>
+		<input type="text" value="Degree Celsius" readonly/>
+		<button onclick="cel_2_fah_kel()">Convert</button>
+	</div>
+
+	<div class="row2">
+		<div class="parent">
+			<input  type="text" id="FahrenheitInput" maxlength="12" placeholder="Enter a value"><span onclick="Clear(event)" id="id2">&#x2715</span>
+		</div>
+		<input type="text" value="Fahrenheit" readonly/>
+		<button onclick="fah_2_cel_kel()">Convert</button>
+	</div>
+
+	<div class="row3">
+		<div class="parent">
+			<input type="text" id="KelvinInput" maxlength="12" placeholder="Enter a value"><span onclick="Clear(event)" id="id3">&#x2715</span>
+		</div>
+		<input type="text" value="Kelvin" readonly/>
+		<button onclick="kel_2_cel_fah()">Convert</button>
+	</div>
+
+	<div class = 'clear-btn'>
+		<button onclick="clearOutput()">Clear Results</button>
+	</div>
+
+	<div>
+		<hr>
+	</div>
+
+	<div class="form-head">
+		<h1>Conversion Formulas</h1>
+	</div>
+	<div class="formulas">
+		<div>
+			<h3>Celsius to Fahrenheit</h3>
+			<p>&deg F = &deg C &#215 (9/5) + 32</p><br>
+		</div>
+
+		<div>
+			<h3>Celsius to Kelvin</h3>
+			<p>K = &deg Celsius + 273.15</p>
+		</div>
+	</div>
+
+	<div class="formulas">
+		<div>
+			<h3>Fahrenheit to Celsius</h3>
+			<p>&deg C = &deg F - 32 &#215 (5/9) </p><br>
+		</div>
+
+		<div>
+			<h3>Fahrenheit to Kelvin</h3>
+			<p>K = (F - 32) &#215 (5/9) + 273.15</p>
+		</div>
+	</div>
+
+	<div class="formulas">
+		<div>
+			<h3>Kelvin to Fahrenheit</h3>
+			<p>F = (K - 273.15) &#215 9/5 + 32</p><br>
+		</div>
+
+		<div>
+			<h3>Kelvin to Celsius</h3>
+			<p>&deg C = K - 273.15</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
