@@ -38,25 +38,24 @@
 </div>
 <div class="container">
 	<div class="row1">
-		<div class="parent">
-			<input type="text" id="CelsiusInput" maxlength="12"  placeholder="Enter a value"><span onclick="Clear(event)" id="id1">&#x2715</span>
-		</div>
+		
+			<input type="number" id="CelsiusInput" maxlength="12"  placeholder="Enter a value" required/>
+	
 		<input type="text" value="Degree Celsius" readonly/>
 		<button onclick="cel_2_fah_kel()">Convert</button>
 	</div>
 
 	<div class="row2">
-		<div class="parent">
-			<input  type="text" id="FahrenheitInput" maxlength="12" placeholder="Enter a value"><span onclick="Clear(event)" id="id2">&#x2715</span>
-		</div>
+		
+			<input  type="number" id="FahrenheitInput" maxlength="12" placeholder="Enter a value">
 		<input type="text" value="Fahrenheit" readonly/>
 		<button onclick="fah_2_cel_kel()">Convert</button>
 	</div>
 
 	<div class="row3">
-		<div class="parent">
-			<input type="text" id="KelvinInput" maxlength="12" placeholder="Enter a value"><span onclick="Clear(event)" id="id3">&#x2715</span>
-		</div>
+		
+			<input type="number" id="KelvinInput" maxlength="12" placeholder="Enter a value">
+		
 		<input type="text" value="Kelvin" readonly/>
 		<button onclick="kel_2_cel_fah()">Convert</button>
 	</div>

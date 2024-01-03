@@ -7,20 +7,18 @@ html, body{
 }
 .header h1 {
 	text-align: center;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Noto Sans Nabataean', sans-serif;
-	/*color: #00D60A;*/
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	margin-top: 9px;
+	font-size: 40px;
 }
 
 .container {
 	background-image: url(tempcoverphoto.jpg);
-	width: 945px;
+	width: 80%;
 	margin: 9px auto 0px auto;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 100vh;
-	border: 2px solid red;;
+	min-height: 90vh;
 }
 
 .container input:hover {
@@ -35,7 +33,7 @@ html, body{
 
 .container hr {
 	
-	width: 578px;
+	width: 70%;
 	margin: 19px auto 0px auto;
 	background-color: white;
 	height: 1px;
@@ -44,71 +42,68 @@ html, body{
 }
 
 .row1 {
-	
 	height: 50px;
-	width: auto;
-	margin: 10px auto 0px auto;
+	width: 80%;
+	/* background-color: red; */
+	margin: 30px auto 0px auto;
 	display: flex;
 	justify-content: space-around;
 }
 
 .row1 input{
-	height: 35px;
-	width: 233px;
+	height: 55px;
+	width: 30%;
 	margin-top: 15px;
 	border: 2px solid green;
 	text-align: left;
 	padding-left: 10px;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Noto Sans Nabataean', sans-serif;
-	font-size: 15px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
 	display: block;
 }
 
 .row1 button {
 	color: white;
+	height: 58px;
 	margin-top: 13.5px;
-	width: 92px;
-	height: 39px;
+	width: 250px;
 	background-color: green;
-	font-size: 15px;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Noto Sans Nabataean', sans-serif;
+	font-size: 20px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	border: 1.5px solid white;
 	cursor: pointer;
 	border-radius: 9px;
 }
 
 .row2 {
-/*	background-color: red;*/
 	height: 50px;
-	width: auto;
-	margin: 45px auto 0px auto;
+	width: 80%;
+	/* background-color: red; */
+	margin: 90px auto 0px auto;
 	display: flex;
 	justify-content: space-around;
 }
 
 .row2 input{
-	height: 35px;
-	width: 233px;
+	height: 55px;
+	width: 30%;
 	margin-top: 15px;
 	border: 2px solid green;
 	text-align: left;
 	padding-left: 10px;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Noto Sans Nabataean', sans-serif;
-	font-size: 15px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	display: block;
 }
 
 .row2 button {
 	color: white;
+	height: 58px;
 	margin-top: 13.5px;
-	width: 92px;
-	height: 39px;
+	width: 250px;
 	background-color: green;
-	font-size: 15px;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Noto Sans Nabataean', sans-serif;
+	font-size: 20px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	border: 1.5px solid white;
 	cursor: pointer;
 	border-radius: 9px;
@@ -116,35 +111,34 @@ html, body{
 
 
 .row3 {
-	/*background-color: red;*/
 	height: 50px;
-	width: auto;
-	margin: 45px auto 0px auto;
+	width: 80%;
+	/* background-color: red; */
+	margin: 90px auto 0px auto;
 	display: flex;
 	justify-content: space-around;
 }
 
 .row3 input{
-	height: 35px;
-	width: 233px;
+	height: 55px;
+	width: 30%;
 	margin-top: 15px;
 	border: 2px solid green;
 	text-align: left;
 	padding-left: 10px;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Noto Sans Nabataean', sans-serif;
-	font-size: 15px;
+ 	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	display: block;
 }
 
 .row3 button {
 	color: white;
+	height: 58px;
 	margin-top: 13.5px;
-	width: 92px;
-	height: 39px;
+	width: 250px;
 	background-color: green;
-	font-size: 15px;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Noto Sans Nabataean', sans-serif;
+	font-size: 20px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	border: 1.5px solid white;
 	cursor: pointer;
 	border-radius: 9px;
@@ -155,27 +149,34 @@ html, body{
 	display: flex;
 	justify-content: space-around;
 	margin-top: 14px;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Noto Sans Nabataean', sans-serif;
 	font-size: 14px;
 }
+.formulas h3 {
+	color: white;
+	margin-top: 9px;
+	font-size: 30px;
+}
+.formulas p {
+	color: white;
+	margin-top: 9px;
+	font-size: 25px;
+}	
 
 .form-head h1 {
 	color: white;
-	font-size: 19px;
+	font-size: 30px;
 	text-align: center;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Noto Sans Nabataean', sans-serif;
 	margin-top: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .clear-btn button {
 	color: white;
-	width: 152px;
-	height: 39px;
+	width: 250px;
+	height: 60px;
 	background-color: green;
-	font-size: 15px;
+	font-size: 25px;
 	font-family: 'Lato', sans-serif;
 	font-family: 'Noto Sans Nabataean', sans-serif;
 	border: none;
@@ -189,292 +190,349 @@ html, body{
 	margin: 65px auto 0px auto;
 }
 
-.parent {
-	position: relative;
-}
-.parent span{
-	position: absolute;
-	top: 25px;
-	right: 10px;
+
+.container span{
+	margin-top: 30px;
+	color: red;
 	cursor: pointer;
 
 }
 
 /*Media Queries*/
-
-@media screen and (min-width: 319px) {
-	body{
-		margin-top: -5px;
-	}
+@media screen and (max-width: 1301px){
 	.container {
-		margin: -5px auto 0px auto;
-		height: 100%;
+		width: 90%;
+		min-height: 100vh;
+		margin-top: -20px;
+	}
+	.row1 input{
+		height: 45px;
+		margin-top: 45px;
+		font-size: 18px;
+	}
+	.row1 button {
+		height: 48px;
+		margin-top: 46px;
+		font-size: 18px;
+	}
+	.row2 input{
+		height: 45px;
+		margin-top: 45px;
+		font-size: 18px;
+	}
+	.row2 button {
+		height: 48px;
+		margin-top: 46px;
+		font-size: 18px;
+	}
+	.row3 input{
+		height: 45px;
+		margin-top: 45px;
+		font-size: 18px;
+	}
+	.row3 button {
+		height: 48px;
+		margin-top: 46px;
+		font-size: 18px;
+	}
+	.clear-btn button {
+		width: 250px;
+		height: 50px;
+		font-size: 20px;
+		margin-top: 15px;
+	}
+	.formulas h3 {
+		color: white;
+		margin-top: 9px;
+		font-size: 25px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	.formulas p {
+		color: white;
+		margin-top: 9px;
+		font-size: 20px;
+		text-align: justify;
+	}	
+	
+	.form-head h1 {
+		color: white;
+		font-size: 30px;
+		text-align: center;
+		margin-top: 20px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+	}
+	.clear-btn button {
+		margin-left: 9px;
+	}
+	.clear-btn {
+			width: 250px;
+			margin: 65px auto 0px auto;
+		}
+}
+@media screen and (max-width: 1077px){
+	.container {
 		width: 100%;
-		border: none;
+		min-height: 100vh;
+		margin-top: -20px;
+	}
+	.row1 input{
+		height: 45px;
+		width: 30%;
+		margin-top: 45px;
+		font-size: 18px;
+	}
+	.row1 button {
+		height: 48px;
+		margin-top: 45px;
+		font-size: 18px;
+		width: 20%;
+	}
+	.row2 input{
+		height: 45px;
+		width: 30%;
+		margin-top: 45px;
+		font-size: 18px;
+	}
+	.row2 button {
+		height: 48px;
+		margin-top: 45px;
+		font-size: 18px;
+		width: 20%;
+	}
+	.row3 input{
+		height: 45px;
+		width: 30%;
+		margin-top: 45px;
+		font-size: 18px;
+	}
+	.row3 button {
+		height: 48px;
+		margin-top: 45px;
+		font-size: 18px;
+		width: 20%;
+	}
+	.clear-btn button {
+		margin-left: 9px;
+		
+	}
+	.clear-btn {
+			width: 250px;
+			margin: 65px auto 0px auto;
+		}
+}
+@media screen and (max-width: 757px){
+	.container {
+		width: 100%;
+		min-height: 100vh;
+		margin-top: -20px;
 	}
 	.row1 {
-		height: 50px;
-		width: 100%;
-	}
-	
-	.row1 input{
-		height: 35px;
-		width: 111px;
-		padding-left: 3px;
-		font-size: 12px;
-	}
-	
-	.row1 button {
-		margin-top: 13.5px;
-		width: 56px;
-		font-size: 12px;
-		border: 1px solid white;
-	} 
-	.parent span{
-		font-size: 12px;
-		margin-top: 3px;
-	}
-	.row2 {
-		height: 50px;
-		width: 100%;
-	}
-	
-	.row2 input{
-		height: 35px;
-		width: 111px;
-		padding-left: 3px;
-		font-size: 12px;
-	}
-	
-	.row2 button {
-		margin-top: 13.5px;
-		width: 56px;
-		font-size: 12px;
-		border: 1px solid white;
-	} 
-	.row3 {
-		height: 50px;
-		width: 100%;
-	}
-	
-	.row3 input{
-		height: 35px;
-		width: 111px;
-		padding-left: 3px;
-		font-size: 12px;
-	}
-	
-	.row3 button {
-		margin-top: 13.5px;
-		width: 56px;
-		font-size: 12px;
-		border: 1px solid white;
-	} 
-	.container hr {
 		width: 90%;
 	}
-	.formulas {
-		color: white;
-		display: flex;
-		justify-content: space-around;
-		margin-top: 14px;
-		font-family: 'Lato', sans-serif;
-		font-family: 'Noto Sans Nabataean', sans-serif;
-		font-size: 11px;
+	.row1 input{
+		height: 40px;
+		width: 35%;
+		font-size: 14px;
+	}
+	.row1 button {
+		height: 42px;
+		margin-top: 45.5px;
+		font-size: 14px;
+		width: 12%;
+	}
+	.row2 {
+		width: 90%;
+	}
+	.row2 input{
+		height: 40px;
+		width: 35%;
+		font-size: 14px;
+		margin-top: 15px;
+	}
+	.row2 button {
+		height: 42px;
+		margin-top: 15px;
+		font-size: 14px;
+		width: 12%;
+	}
+	.row3 {
+		width: 90%;
+	}
+	.row3 input{
+		height: 40px;
+		width: 35%;
+		font-size: 14px;
+		margin-top: -18px;
+	}
+	.row3 button {
+		height: 42px;
+		margin-top: -18px;
+		font-size: 14px;
+		width: 12%;
+	}
+	.clear-btn button {
+		margin-left: 47px;
+		height: 40px;
+		width: 170px;
+		
+	}
+	.clear-btn {
+		width: 250px;
+		margin: 0px auto 0px auto;
 	}
 	.header h1 {
+		font-size: 32px;
+	}
+	.formulas h3 {
+		color: white;
+		margin-top: 9px;
+		font-size: 22px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	.form-head h1 {
 		font-size: 25px;
+
 	}
 }
-
-@media screen and (min-width: 724px) {
-	body,html {
-		height: 100%;
-		margin-top: -5px;
-
-	}
-	.container {
-		margin: 9px auto 0px auto;
-		height: 100%;
-		width: 70%;
-		border: none;
-	}
-	.row1 {
-		height: 50px;
-		width: 100%;
-	}
-	
+@media screen and (max-width: 641px){
 	.row1 input{
 		height: 35px;
-		width: 243px;
-		padding-left: 3px;
-		font-size: 17px;
-		margin-top: 47px;
+		font-size: 12px;
 	}
-	
 	.row1 button {
-		margin-top: 46px;
-		width: 70px;
-		font-size: 15px;
-		border: 1px solid white;
-	} 
-	.parent span{
-		font-size: 15px;
-		margin-top: 32px;
+		height: 37px;
+		font-size: 12px;
+		width: 15%;
 	}
-	.row2 {
-		height: 50px;
-		width: 100%;
-	}
-	
 	.row2 input{
 		height: 35px;
-		width: 243px;
-		padding-left: 3px;
-		font-size: 17px;
-		margin-top: 47px;
+		font-size: 12px;
+		margin-top: 0px;
 	}
-	
 	.row2 button {
-		margin-top: 46px;
-		width: 70px;
-		font-size: 15px;
-		border: 1px solid white;
-	} 
-	.row3 {
-		height: 50px;
-		width: 100%;
+		height: 37px;
+		font-size: 12px;
+		width: 15%;
+		margin-top: 0px;
 	}
-	
 	.row3 input{
 		height: 35px;
-		width: 243px;
-		padding-left: 3px;
-		font-size: 17px;
-		margin-top: 47px;
+		font-size: 12px;
+		margin-top: -44px;
 	}
-	
 	.row3 button {
-		margin-top: 46px;
-		width: 70px;
-		font-size: 15px;
-		border: 1px solid white;
-	} 
-
-	.container hr {
-		width: 90%;
-		margin-top: 30px;
+		height: 37px;
+		font-size: 12px;
+		margin-top: -44px;
+		width: 15%;
 	}
 	.clear-btn button {
-		margin-top: 30px;
+		/* margin-left: 47px; */
+		height: 35px;
+		width: 170px;
+		margin-top: -25px;
+		font-size: 15px;
+		
 	}
-	.form-head h1{
-		font-size: 25px;
-	}
-	.formulas {
-		color: white;
-		display: flex;
-		justify-content: space-around;
-		margin-top: 15px;
-		font-family: 'Lato', sans-serif;
-		font-family: 'Noto Sans Nabataean', sans-serif;
+	.formulas p {
 		font-size: 15px;
 	}
-
-}
-
-@media screen and (min-width: 721px) {
-	body,html {
-		height: 100%;
-		margin-top: -5px;
+	.formulas h3 {
+		color: white;
+		margin-top: 9px;
+		font-size: 18px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	.form-head h1 {
+		font-size: 22px;
 
 	}
+}
+
+@media screen and (max-width: 407px){
+body{
+	height: 30%;
+}
 	.container {
-		margin: 9px auto 0px auto;
-		height: 100%;
-		width: 70%;
-		border: none;
+		margin-top: -25px;
+		height: 100px;
+		min-height: 93vh;
 	}
 	.row1 {
-		height: 50px;
 		width: 100%;
 	}
-	
 	.row1 input{
 		height: 35px;
-		width: 189px;
-		padding-left: 3px;
-		font-size: 17px;
-		margin-top: 47px;
+		width: 32%;
+		font-size: 12px;
+		margin-top: 25px;
 	}
-	
 	.row1 button {
-		margin-top: 46px;
-		width: 70px;
-		font-size: 15px;
-		border: 1px solid white;
-	} 
-	.parent span{
-		font-size: 15px;
-		margin-top: 32px;
+		height: 37px;
+		margin-top:26px;
+		font-size: 11px;
+		width: 17%;
+		border-radius: 5px;
 	}
 	.row2 {
-		height: 50px;
 		width: 100%;
 	}
-	
 	.row2 input{
 		height: 35px;
-		width: 189px;
-		padding-left: 3px;
-		font-size: 17px;
-		margin-top: 47px;
+		width: 32%;
+		font-size: 12px;
+		margin-top: -35px;
 	}
-	
 	.row2 button {
-		margin-top: 46px;
-		width: 70px;
-		font-size: 15px;
-		border: 1px solid white;
-	} 
-	.row3 {
-		height: 50px;
-		width: 100%;
+		height: 37px;
+		margin-top: -34px;
+		font-size: 11px;
+		width: 17%;
+		border-radius: 5px;
 	}
+	.row3 {
+		width: 100%;
 	
+		margin-top: -20px
+	}
 	.row3 input{
 		height: 35px;
-		width: 189px;
-		padding-left: 3px;
-		font-size: 17px;
-		margin-top: 47px;
+		width: 32%;
+		font-size: 12px;
+		margin-top: 18px;
 	}
-	
 	.row3 button {
-		margin-top: 46px;
-		width: 70px;
-		font-size: 15px;
-		border: 1px solid white;
-	} 
-
-	.container hr {
-		width: 90%;
-		margin-top: 30px;
+		height: 37px;
+		margin-top: 19px;
+		font-size: 11px;
+		width: 17%;
+		border-radius: 5px;
+	}
+	.clear-btn {
+		margin-top: 35px;
 	}
 	.clear-btn button {
-		margin-top: 17px;
+		margin-top: 0px;
+		
 	}
-	.form-head h1{
-		font-size: 25px;
+	.formulas p {
+		font-size: 13px;
+		text-align: center;
 	}
-	.formulas {
+	.formulas h3 {
 		color: white;
-		display: flex;
-		justify-content: space-around;
-		margin-top: 15px;
-		font-family: 'Lato', sans-serif;
-		font-family: 'Noto Sans Nabataean', sans-serif;
+		margin-top: 9px;
 		font-size: 15px;
+		text-align: center;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	}
+	.form-head h1 {
+		font-size: 22px;
 
+	}
+	.header h1 {
+		font-size: 22px;
+	}
 }
+
